@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.hiumee" name="Hiumee's Repository" version="1.0" provider-name="Hiumee">
+    <extension point="xbmc.addon.repository" name="Hiumee's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/BRANCH_NAME_HERE/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/BRANCH_NAME_HERE/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/BRANCH_NAME_HERE/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Hiumee's Addon Repository</summary>
+        <description>Download, Install and Update addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="service.discord.richpresence"
+  name="Discord Rich Presence"
+  version="1.2.8"
+  provider-name="Hiumee">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.service" library="default.py" />
+<extension point="xbmc.addon.metadata">
+  <platform>all</platform>
+  <source>https://github.com/Hiumee/service.discord.richpresence</source>
+</extension>
+</addon>
+</addons>
