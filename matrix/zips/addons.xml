@@ -7,7 +7,7 @@
             <checksum>https://raw.githubusercontent.com/Hiumee/kodi-repository/main/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Hiumee/kodi-repository/main/zips/</datadir>
         </dir>
-        <dir minversion="18.9">
+        <dir minversion="18.9.0">
             <info compressed="false">https://raw.githubusercontent.com/Hiumee/kodi-repository/main/matrix/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Hiumee/kodi-repository/main/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Hiumee/kodi-repository/main/matrix/zips/</datadir>
